@@ -23,7 +23,7 @@ package main
 // $ docker-compose -f docker-compose-test.yml up -d staging-dep
 // $ docker-compose -f docker-compose-test.yml run --rm production
 
-/*import (
+import (
 	"fmt"
 	"github.com/stretchr/testify/suite"
 	"net/http"
@@ -63,4 +63,4 @@ func TestIntegrationTestSuite(t *testing.T) {
 	s := new(IntegrationTestSuite)
 	s.hostIp = os.Getenv("HOST_IP")
 	suite.Run(t, s)
-}*/
+}
