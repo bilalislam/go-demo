@@ -10,7 +10,7 @@ cp jenkins/vars/dockerFlowWorkshop.groovy \
     /data/jenkins/workflow-libs/vars/dockerFlow.groovy
 ```
 
-With Git
+With Git 
 ========
 
 ```bash
